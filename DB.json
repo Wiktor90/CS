@@ -1,0 +1,37 @@
+{
+  "DB": [
+    {
+      "username": "Wiktor",
+      "password": "admin1",
+      "rights": "ADMIN",
+      "box": {
+        "1. from Marek": " test refactor user 1",
+        "2. from Marek": " test refaktor 3"
+      }
+    },
+    {
+      "username": "Daniel",
+      "password": "test1",
+      "rights": "USER",
+      "box": {
+        "1. from Wiktor": " Raz dwa trzy testy!",
+        "2. from Marek": "test 123"
+      }
+    },
+    {
+      "username": "Marek",
+      "password": "test123",
+      "rights": "USER",
+      "box": {
+        "1. from Wiktor": "Test refaktoru kodu",
+        "2. from Wiktor": "refactor 2"
+      }
+    },
+    {
+      "username": "TestUser",
+      "password": "123test",
+      "rights": "USER",
+      "box": {}
+    }
+  ]
+}
