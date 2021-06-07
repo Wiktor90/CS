@@ -1,6 +1,7 @@
+import os
 import sys
 
-sys.path.insert(0, r"C:\Users\pl9891\Desktop\Pozamiataj\L002\CS")
+sys.path.insert(0, os.getcwd())
 
 import unittest
 
@@ -24,11 +25,6 @@ class TestUsers(unittest.TestCase):
 
     def test_get_user_info_have_good_data_type(self):
         self.assertIs(type(self.user.get_user_data()), dict)
-
-    def test_user_cant_create_users(self):
-        user_rights = self.server.get_server_info("USER")
-        with self.assertRaises(KeyError):
-            user_rights["create"]
 
 
 if __name__ == "__main__":

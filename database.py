@@ -1,9 +1,11 @@
 import json
+import os
 
 
 class DataBase:
 
-    path = r"C:\Users\pl9891\Desktop\Pozamiataj\L002\CS\DB.json"
+    # path = r"C:\Users\pl9891\Desktop\Pozamiataj\L002\CS\DB.json"
+    path = os.path.join(os.getcwd(), "DB.json")
 
     @staticmethod
     def load_db_data(path=path):

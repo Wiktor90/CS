@@ -4,10 +4,7 @@
       "username": "Wiktor",
       "password": "admin1",
       "rights": "ADMIN",
-      "box": {
-        "1. from Marek": " test refactor user 1",
-        "2. from Marek": " test refaktor 3"
-      }
+      "box": {}
     },
     {
       "username": "Daniel",
@@ -29,7 +26,7 @@
     },
     {
       "username": "TestUser",
-      "password": "123test",
+      "password": "testing555",
       "rights": "USER",
       "box": {}
     }

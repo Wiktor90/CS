@@ -1,6 +1,8 @@
+import os
 import sys
 
-sys.path.insert(0, r"C:\Users\pl9891\Desktop\Pozamiataj\L002\CS")
+
+sys.path.insert(0, os.getcwd())
 
 import unittest
 
@@ -15,7 +17,7 @@ class TestDataBase(unittest.TestCase):
             "username": "Wiktor",
             "password": "admin1",
             "rights": "ADMIN",
-            "box": {"1. from Wiktor": "test msg"},
+            "box": {},
         }
         self.new_user = {
             "username": "Ola",
